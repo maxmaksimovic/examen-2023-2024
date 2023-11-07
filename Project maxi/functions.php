@@ -13,8 +13,10 @@ function pdo_connect_mysql() {
     	exit('Failed to connect to database!');
     }
 }
-function template_header($title) {
-echo <<<EOT
+
+function template_header($title) {}
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -23,27 +25,21 @@ echo <<<EOT
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="bootstrap.min.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
-		
 	</head>
 	<body>
-  
+	<div class="center">
     	<div class="logo">
     	
-		
-		<img src="Original.png" alt="" style="height: 13rem; max-width: auto; margin: auto;">
+		<div class="container-nav">
+		<img src="Original.png" alt="rumih-logo" >
+		<a href="read.php"><i class="fas fa-address-book"></i></a>
 		
 	
 		
 		
     	</div>
+	</div>	
     </nav>
-EOT;
-}
-function template_footer() {
-echo <<<EOT
+
     </body>
 </html>
-EOT;
-}
-?>
-<!-- 	<a href="read.php"><i class="fas fa-address-book"></i></a> -->
