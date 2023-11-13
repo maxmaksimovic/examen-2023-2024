@@ -24,7 +24,8 @@ function template_header($title) {}
 		<title>$title</title>
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="bootstrap.min.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+		
+		<script src="https://kit.fontawesome.com/8e01cdcabe.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
 	<div class="center">
@@ -32,7 +33,10 @@ function template_header($title) {}
     	
 		<div class="container-nav">
 		<img src="Original.png" alt="rumih-logo" >
-		<a href="read.php"><i class="fas fa-address-book"></i></a>
+
+		
+		
+		<a href="read.php"><i class="fa-solid fa-users-gear fa-xl" style="color: #000000; float: right; padding: 20px;"></i></a>
 		
 	
 		

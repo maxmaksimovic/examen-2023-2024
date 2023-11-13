@@ -33,25 +33,27 @@ if (isset($_GET['id'])) {
 <?=template_header('Read')?>
 
 <div class="content update">
-	<h2>Update medewerker #<?=$medewerkers['ID']?></h2>
-    <form action="update.php?id=<?=$medewerkers['ID']?>" method="post">
-        <label for="ID">ID</label>
-        <label for="Naam">Naam</label>
-        <input type="text" name="ID" placeholder="1" value="<?=$medewerkers['ID']?>" id="ID">
-        <input type="text" name="Naam" placeholder="John Doe" value="<?=$medewerkers['Naam']?>" id="Naam">
-        <label for="Afdeling"> Afdeling</label>
-        <label for="Datum"> Datum</label>
-        <input type="text" name="Afdeling" placeholder="johndoe@example.com" value="<?=$medewerkers['Afdeling']?>" id="Afdeling">
-        <input type="text" name="Datum" placeholder="johndoe@example.com" value="<?=$medewerkers['Datum']?>" id="Datum">
-        <label for="Minuten te laat">Minuten te laat</label>
-        <label for="title">Reden te laat</label>
-        <input type="text" name="Minutentelaat"  value="<?=$medewerkers['Minutentelaat']?>" id="Minuten te laat">
-        <input type="text" name="Redentelaat"  value="<?=$medewerkers['Redentelaat']?>" id="Reden te laat">
-   
-        <input type="submit" value="Update">
-    </form>
-    <?php if ($msg): ?>
-    <p><?=$msg?></p>
-    <?php endif; ?>
-</div>
+    
+        <h2>Update medewerker #<?=$medewerkers['ID']?></h2>
+        <form action="update.php?id=<?=$medewerkers['ID']?>" method="post">
+            <label for="ID">ID</label>
+            <label for="Naam">Naam</label>
+            <input type="text" name="ID" placeholder="1" value="<?=$medewerkers['ID']?>" id="ID">
+            <input type="text" name="Naam" placeholder="John Doe" value="<?=$medewerkers['Naam']?>" id="Naam">
+            <label for="Afdeling"> Afdeling</label>
+            <label for="Datum"> Datum</label>
+            <input type="text" name="Afdeling" placeholder="johndoe@example.com" value="<?=$medewerkers['Afdeling']?>" id="Afdeling">
+            <input type="text" name="Datum" placeholder="johndoe@example.com" value="<?=$medewerkers['Datum']?>" id="Datum">
+            <label for="Minuten te laat">Minuten te laat</label>
+            <label for="title">Reden te laat</label>
+            <input type="text" name="Minutentelaat"  value="<?=$medewerkers['Minutentelaat']?>" id="Minuten te laat">
+            <input type="text" name="Redentelaat"  value="<?=$medewerkers['Redentelaat']?>" id="Reden te laat">
+    
+            <input type="submit" value="Update">
+        </form>
+        <?php if ($msg): ?>
+        <p><?=$msg?></p>
+        <?php endif; ?>
+    </div>
+
 

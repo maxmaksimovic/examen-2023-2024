@@ -44,7 +44,7 @@ $num_medewerker = $pdo->query('SELECT COUNT(*) FROM medewerkers')->fetchColumn()
 		<a href="create.php" class="create-medewerker">Weer eentje te laat!!👎</a>
 			
 		<table class="tr">
-
+ 
 
 			<thead>
 			
@@ -71,7 +71,7 @@ $num_medewerker = $pdo->query('SELECT COUNT(*) FROM medewerkers')->fetchColumn()
 		<td> <?=$medewerkers['Redentelaat']?> </td>
 
 
-		<td><a href="update.php?id=<?=$medewerkers['ID']?>" class="edit"><i class="fas fa-pen fa-xs"></i></a></td> 
+		<td><a href="update.php?id=<?=$medewerkers['ID']?>" class="edit"><i class="fa-regular fa-pen-to-square fa-xs" style="color: #000000;"></i></a></td> 
 		<td><a href="delete.php?id=<?=$medewerkers['ID']?>" class="trash"><i class="fas fa-trash fa-xs"></i></a></td>
 
 		</tbody>

@@ -29,13 +29,14 @@ if (isset($_GET['id'])) {
 }
 ?>
 <?=template_header('Delete')?>
-z
+<div class="center">
 <div class="content delete">
 	<h2>Verwijder medewerker #<?=$medewerkers['ID']?></h2>
+    <hr class="lijn">
     <?php if ($msg): ?>
     <p><?=$msg?></p>
     <?php else: ?>
-	<p>Weet u zeker dat u werknemer wilt verwijderen? #<?=$medewerkers['ID']?>?</p>
+	<p>Weet u zeker dat u <?=$medewerkers['Naam']?> wilt verwijderen uit het systeem?</p>
     <div class="yesno">
         <a href="delete.php?id=<?=$medewerkers['ID']?>&confirm=yes">Yes</a>
         <a href="delete.php?id=<?=$medewerkers['ID']?>&confirm=no">No</a>
@@ -43,4 +44,4 @@ z
     <?php endif; ?>
 </div>
 
-<?=template_footer()?>
+</div>

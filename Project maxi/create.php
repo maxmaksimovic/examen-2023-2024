@@ -27,11 +27,14 @@ if (!empty($_POST)) {
     
     <main style="width: 600px;  margin: 90px auto;">
         <h2 style="text-align:center;">Nieuwe melding te late medewerker🙁</h2>
+        <hr class="lijn">
 
         <form action="create.php" method="post">
             <div class="form-group">
                 <label for="naam_student">Naam medewerker</label>
+                
                 <input type="text" class="form-control" id="name" name="name" required>
+            
             </div>
             <div class="form-group">
                 <label for="Afdeling">Afdeling</label>
@@ -45,10 +48,21 @@ if (!empty($_POST)) {
             </div>
             <div class="form-group">
                 <label for="Minuten te laat"> Minuten te laat</label>
-
-
-                <select class="form-control" id="Minutentelaat" name="Minutentelaat">
-                    <option>5</option><option>10</option><option>15</option><option>20</option><option>25</option><option>30</option><option>35</option><option>40</option><option>45</option><option>50</option><option>55</option><option>60</option>                </select>
+            <select class="form-control" id="Minutentelaat" name="Minutentelaat">
+                    <option>5</option>
+                    <option>10</option>
+                    <option>15</option>
+                    <option>20</option>
+                    <option>25</option>
+                    <option>30</option>
+                    <option>35</option>
+                    <option>40</option>
+                    <option>45</option>
+                    <option>50</option>
+                    <option>55</option>
+                    <option>60</option> 
+                    <option>meer dan een uur🙁</option> 
+            </select>
 
 
             </div>
