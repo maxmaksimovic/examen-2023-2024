@@ -70,5 +70,3 @@ if (!empty($_POST)) {
     <p><?=$msg?></p>
     <?php endif; ?>
 </div>
-
-<?=template_footer()?>
