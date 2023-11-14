@@ -33,6 +33,7 @@ if (isset($_GET['id'])) {
 <?=template_header('Read')?>
 
 <div class="content update">
+
     
         <h2>Update medewerker #<?=$medewerkers['ID']?></h2>
         <form action="update.php?id=<?=$medewerkers['ID']?>" method="post">
@@ -55,5 +56,6 @@ if (isset($_GET['id'])) {
         <p><?=$msg?></p>
         <?php endif; ?>
     </div>
+
 
 

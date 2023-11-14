@@ -32,9 +32,10 @@ function template_header($title) {}
     	<div class="logo">
     	
 		<div class="container-nav">
-		<img src="Original.png" alt="rumih-logo" >
+		<a href="read.php">
+		<img src="Original.png" alt="rumih-logo" ></a>
 
-		
+
 		
 		<a href="read.php"><i class="fa-solid fa-users-gear fa-xl" style="color: #000000; float: right; padding: 20px;"></i></a>
 		

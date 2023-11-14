@@ -22,57 +22,62 @@ if (!empty($_POST)) {
 }
 ?>
 
-<?=template_header('Create')?>
+<?=template_header('create')?>
 <body>
     
     <main style="width: 600px;  margin: 90px auto;">
         <h2 style="text-align:center;">Nieuwe melding te late medewerker🙁</h2>
         <hr class="lijn">
+            <div class="frame">
+                 <form action="create.php" method="post">
+        
+                        <label for="naam_student">Naam medewerker</label>
+                    
+                        <input type="text" class="form-control" id="name" name="name" required>
+                        <br>
 
-        <form action="create.php" method="post">
-            <div class="right">
-                <label for="naam_student">Naam medewerker</label>
-                <input type="text" class="form-control" id="name" name="name" required>
-                <br>
 
+                        <label for="Afdeling">Afdeling</label>
+                    
+                        <select class="form-control" id="Afdeling" name="Afdeling">
+                            <option>Development</option>
+                            <option>Support</option>
+                            <option>Sales</option>
+                            <option>Office</option>                
+                        </select><br>
+                        
+        
+                        <label for="Datum">Datum:</label>
+                        <input type="text" class="form-control" id="Datum" name="Datum" required><br>
 
-                <label for="Afdeling">Afdeling</label>
-                <select class="form-control" id="Afdeling" name="Afdeling">
-                    <option>Development</option>
-                    <option>Support</option>
-                    <option>Sales</option>
-                    <option>Office</option>                
-                </select><br>
-   
-                <label for="Datum">Datum:</label>
-                <input type="text" class="form-control" id="Datum" name="Datum" required><br>
+                        <label for="Minuten te laat"> Minuten te laat</label>
+                        <select class="form-control" id="Minutentelaat" name="Minutentelaat">
+                            <option>5</option>
+                            <option>10</option>
+                            <option>15</option>
+                            <option>20</option>
+                            <option>25</option>
+                            <option>30</option>
+                            <option>35</option>
+                            <option>40</option>
+                            <option>45</option>
+                            <option>50</option>
+                            <option>55</option>
+                            <option>60</option> 
+                            <option>meer dan een uur🙁</option><br> 
+                    </select>
+                    
 
-                <label for="Minuten te laat"> Minuten te laat</label>
-                <select class="form-control" id="Minutentelaat" name="Minutentelaat">
-                    <option>5</option>
-                    <option>10</option>
-                    <option>15</option>
-                    <option>20</option>
-                    <option>25</option>
-                    <option>30</option>
-                    <option>35</option>
-                    <option>40</option>
-                    <option>45</option>
-                    <option>50</option>
-                    <option>55</option>
-                    <option>60</option> 
-                    <option>meer dan een uur🙁</option><br> 
-            </select>
+                    
+                    <div class="form-group">
+                        <label for="Redentelaat">Redentelaat:</label><br>
+                        <textarea class="form-control-inp" rows="5" id="Redentelaat" name="Redentelaat"></textarea>
+                    </div>
+                
+                    <input type="submit" value="Opslaan">
+           
+                </form>
             </div>
-
-            
-            <div class="form-group">
-                <label for="Redentelaat">Redentelaat:</label><br>
-                <textarea class="form-control" rows="5" id="Redentelaat" name="Redentelaat"></textarea>
-            </div>
-      
-            <input type="submit" value="Opslaan">
-        </form>
     </main>
 
 </body>

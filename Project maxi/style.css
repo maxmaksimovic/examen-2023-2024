@@ -54,7 +54,7 @@ hr.lijn {
 .read .create-contact {
     display: inline-block;
     text-decoration: none;
-    background-color: red;
+    background-color: #fc007e;
     font-weight: bold;
     font-size: 14px;
     color: #FFFFFF;
@@ -62,7 +62,7 @@ hr.lijn {
     margin: 15px 0;
 }
 .read .create-contact:hover {
-    background-color: red;
+    background-color: #ff69b4;
 }
 .read .pagination {
     display: flex;
@@ -100,7 +100,7 @@ hr.lijn {
     background-color: #fbfcfc;
 }
 .read table tbody tr:hover {
-    background-color: red;
+    background-color: #ff69b4;
 }
 .read table tbody tr:hover td {
     color: #FFFFFF;
@@ -122,17 +122,17 @@ hr.lijn {
     display: inline-flex;
     text-align: right;
     text-decoration: none;
-    color: red;
+    color: #ff69b4;
     padding: 10px 12px;
 }
 .read table tbody tr td.actions .trash {
     background-color: #b73737;
 }
 .read table tbody tr td.actions .trash:hover {
-    background-color: #a33131;
+    background-color: #ff69b4;
 }
 .read table tbody tr td.actions .edit {
-    background-color: red;
+    background-color: #ff69b4;
 }
 .read table tbody tr td.actions .edit:hover {
     background-color: #ff69b4;
@@ -206,7 +206,31 @@ table.tr {
     background-color: #ff69b4;
 }
 
-.right {
-    float: right;
-    padding: 10px;
-  }
+.frame {
+   
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 70%;
+    margin: auto;
+    
+   
+
+
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+   
+} 
+
+
+.form-control-inp{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 5rem;
+    margin-bottom: 20px;
+   
+} 
