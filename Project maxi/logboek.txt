@@ -1,0 +1,46 @@
+**Logboek: Webontwikkeling - 15 oktober tot 30 november**
+
+*15 oktober*
+
+- **09:00 - 10:30:** Overleg met het team over de voortgang van de website. Bespreking van nieuwe functies en eventuele problemen.
+  
+- **10:30 - 12:00:** Analyse van gebruikersfeedback en suggesties. Notities gemaakt voor mogelijke verbeteringen en aanpassingen.
+
+- **13:00 - 15:00:** Ontwerpwerkzaamheden voor de nieuwe functiepagina. Schetsen en concepten uitgewerkt.
+
+*16 oktober*
+
+- **09:00 - 11:00:** Implementatie van een responsief ontwerp voor de homepage. Testen op verschillende schermformaten.
+
+- **11:00 - 12:30:** Bespreking met de grafisch ontwerper om de kleuren en visuele elementen van de nieuwe pagina's af te stemmen.
+
+*20 oktober*
+
+- **09:30 - 12:00:** Oplossen van bugs in het gebruikersregistratiesysteem. Uitvoerige tests om de stabiliteit te waarborgen.
+
+- **13:30 - 15:00:** Voorbereiding voor de lancering van een tijdelijke promotiepagina. Implementatie van trackingtools voor marketinganalyse.
+
+*25 oktober*
+
+- **10:00 - 11:30:** Schrijven van documentatie voor nieuwe functies en updates. Zorgen voor heldere instructies voor het supportteam en eindgebruikers.
+
+- **13:00 - 15:00:** Uitvoeren van beveiligingsupdates en patches. Controle van de website op mogelijke kwetsbaarheden.
+
+*30 oktober*
+
+- **09:00 - 10:30:** Laatste tests voor de tijdelijke promotiepagina. Verifiëren of alle links correct werken en of de pagina goed wordt weergegeven.
+
+- **11:00 - 12:30:** Lancering van de tijdelijke promotiepagina. Monitoring van websiteverkeer en prestaties na de lancering.
+
+*15 november*
+
+- **09:00 - 10:30:** Feedbackanalyse van de nieuwe functies. Aanpassingen aan de gebruikersinterface op basis van ontvangen feedback.
+
+- **11:00 - 12:30:** Brainstormsessie voor toekomstige ontwikkelingen en verbeteringen. Opstellen van een roadmap voor de komende maanden.
+
+- **13:30 - 15:00:** Overleg met het marketingteam om te zorgen voor synergie tussen de website-updates en lopende marketingcampagnes.
+
+Dit logboek geeft een overzicht van dagelijkse activiteiten, variërend van overleg en ontwerp tot implementatie en onderhoud, en biedt een realistische weergave van de taken die een webontwikkelaar gedurende deze periode zou kunnen uitvoeren.
+
+
+Was een soort van vergeten me logboek bij te houden en me source controll versie beheer heb ik ook slordig gedaan

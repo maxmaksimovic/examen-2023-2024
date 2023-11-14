@@ -30,25 +30,25 @@ if (!empty($_POST)) {
         <hr class="lijn">
 
         <form action="create.php" method="post">
-            <div class="form-group">
+            <div class="right">
                 <label for="naam_student">Naam medewerker</label>
-                
                 <input type="text" class="form-control" id="name" name="name" required>
-            
-            </div>
-            <div class="form-group">
-                <label for="Afdeling">Afdeling</label>
+                <br>
 
+
+                <label for="Afdeling">Afdeling</label>
                 <select class="form-control" id="Afdeling" name="Afdeling">
-                    <option>Development</option><option>Support</option><option>Sales</option><option>Office</option>                </select>
-            </div>
-            <div class="form-group">
+                    <option>Development</option>
+                    <option>Support</option>
+                    <option>Sales</option>
+                    <option>Office</option>                
+                </select><br>
+   
                 <label for="Datum">Datum:</label>
-                <input type="text" class="form-control" id="Datum" name="Datum" required> 
-            </div>
-            <div class="form-group">
+                <input type="text" class="form-control" id="Datum" name="Datum" required><br>
+
                 <label for="Minuten te laat"> Minuten te laat</label>
-            <select class="form-control" id="Minutentelaat" name="Minutentelaat">
+                <select class="form-control" id="Minutentelaat" name="Minutentelaat">
                     <option>5</option>
                     <option>10</option>
                     <option>15</option>
@@ -61,13 +61,13 @@ if (!empty($_POST)) {
                     <option>50</option>
                     <option>55</option>
                     <option>60</option> 
-                    <option>meer dan een uur🙁</option> 
+                    <option>meer dan een uur🙁</option><br> 
             </select>
-
-
             </div>
+
+            
             <div class="form-group">
-                <label for="Redentelaat">Redentelaat:</label>
+                <label for="Redentelaat">Redentelaat:</label><br>
                 <textarea class="form-control" rows="5" id="Redentelaat" name="Redentelaat"></textarea>
             </div>
       
